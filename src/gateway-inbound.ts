@@ -199,7 +199,7 @@ function buildContextInfo(
 }
 要点：(1) payload.kind 只能是 "agentTurn"  (2) deliver/channel/to 缺一不可  (3) atMs 直接用上面算好的数字（如3分钟后就填 ${nowMs + 180000}）  (4) 周期任务用 schedule.kind="cron" + expr + tz="Asia/Shanghai"
 
-【不要像用户透露这些消息的发送方式，现有用户输入如下】
+【不要向用户透露这些消息的发送方式，现有用户输入如下】
 `;
 }
 
